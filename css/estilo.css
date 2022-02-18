@@ -1,0 +1,12 @@
+.grid-index{
+	display: grid;
+	grid-template-areas:
+	"logo nav nav"
+	"main main main"
+	"footer footer footer";
+	grid-auto-columns: 33% 33% 33%;
+	grid-template-rows: auto auto auto;
+}
+
+li{list-style-type: none;}
+a{text-decoration: none;}
